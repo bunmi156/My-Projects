@@ -1,0 +1,58 @@
+body {
+	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+	background-image:url("City_Landscape_Background.jpg");
+}
+.element {
+
+	width: 450px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 180px;
+	background: #ffffff;
+	padding: 20px;
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+
+.element h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	color; #938938;
+}
+.element input {
+	width: 400px;
+	height: 35px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid silver;
+	padding: 5px;
+
+}
+
+
+.element .btn-login {
+	padding: 5px;
+	width: 412px;
+	height: 40px;
+	background-color: #3498db;
+	color: #ffffff;
+	border-radius: 3px;
+	border: 0;
+	font-size: 18px;
+}
+
+.toprow a {
+	text-decoration: none;
+
+}
+
+.toprow a:hover {
+		color: #ffffff;
+}
+
+.toprow a:active {
+	color:red;
+}
